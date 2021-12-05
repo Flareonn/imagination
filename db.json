@@ -2,6 +2,7 @@
   "users":[{"login":"admin","pass":"admin","status":"admin"},{"login":"bar1","pass":"135","status":"worker"},{"login":"bar2","pass":"1561","status":"worker"}],
   "coffee": [
     {
+      "id": 1,
       "img": "https://img1.goodfon.ru/wallpaper/nbig/5/83/gorod-most-zolotye-vorota.jpg",
       "title": "123",
       "price": 511,
@@ -9,6 +10,7 @@
       "rating": 5
     },
     {
+      "id": 2,
       "img": "https://img1.goodfon.ru/wallpaper/nbig/5/83/gorod-most-zolotye-vorota.jpg",
       "title": "Заголовок кофе классное",
       "price": 501,
