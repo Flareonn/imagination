@@ -1,43 +1,91 @@
 {
   "users":[{"login":"admin","pass":"admin","status":"admin"},{"login":"bar1","pass":"135","status":"worker"},{"login":"bar2","pass":"1561","status":"worker"}],
-  "coffee": {"headers": ["Изображение","Название","Цена","Объём","Рейтинг популярности"],"data": [{"img": "https://img1.goodfon.ru/wallpaper/nbig/5/83/gorod-most-zolotye-vorota.jpg","title": "123","price": 511,"amount": "6156","rating": 5}, {"img": "https://img1.goodfon.ru/wallpaper/nbig/5/83/gorod-most-zolotye-vorota.jpg","title": "Заголовок кофе классное","price": 501,"amount": "611","rating": 1}]},
-  "ware": {"headers": ["Артикул","Наименование","Количество","Стоимость"],"data": [{"number": "65232-1231-1254","title": "Артикул 1","amount": "12","price": 123},{"number": "51612-5215-6882","title": "Артикул 2","amount": "61","price": 567}]},
-  "employees": {"headers": ["ФИО","Номер телефона","Паспорт","ИНН"],"data": [{"fullname": "Брюханов Павел Владимирович","phone": "+79323133842","passport": "Есть","INN": "1551262334"},{"fullname": "Широков Константин Евгеньевич","phone": "89003797616","passport": "Есть","INN": "1554122254"}]},
-  "orders": {"headers": ["№","Чек","Стоимость","Корзина","Статус"],"data": [{"number": "1","paycheck": "123","price": 151,"cart": "15","status": "process"},{
-        "number": "2",
-        "paycheck": "562",
-        "price": 622,
-        "cart": "8888",
-        "status": "success"
-      },
-      {
-        "number": "3",
-        "paycheck": "1253",
-        "price": 1521,
-        "cart": "21",
-        "status": "failed"
-      },
-      {
-        "number": "1",
-        "paycheck": "123",
-        "price": 151,
-        "cart": "15",
-        "status": "process"
-      },
-      {
-        "number": "2",
-        "paycheck": "562",
-        "price": 622,
-        "cart": "8888",
-        "status": "success"
-      },
-      {
-        "number": "3",
-        "paycheck": "1253",
-        "price": 1521,
-        "cart": "21",
-        "status": "failed"
-      }
-    ]
-  }
+  "coffee": [
+    {
+      "img": "https://img1.goodfon.ru/wallpaper/nbig/5/83/gorod-most-zolotye-vorota.jpg",
+      "title": "123",
+      "price": 511,
+      "amount": "6156",
+      "rating": 5
+    },
+    {
+      "img": "https://img1.goodfon.ru/wallpaper/nbig/5/83/gorod-most-zolotye-vorota.jpg",
+      "title": "Заголовок кофе классное",
+      "price": 501,
+      "amount": "611",
+      "rating": 1
+    }
+  ],
+  "ware": [
+    {
+      "number": "65232-1231-1254",
+      "title": "Артикул 1",
+      "amount": "12",
+      "price": 123
+    },
+    {
+      "number": "51612-5215-6882",
+      "title": "Артикул 2",
+      "amount": "61",
+      "price": 567
+    }
+  ],
+  "employees": [
+    {
+      "fullname": "Брюханов Павел Владимирович",
+      "phone": "+79323133842",
+      "passport": "Есть",
+      "INN": "1551262334"
+    },
+    {
+      "fullname": "Широков Константин Евгеньевич",
+      "phone": "89003797616",
+      "passport": "Есть",
+      "INN": "1554122254"
+    }
+  ],
+  "orders": [
+    {
+      "number": "1",
+      "paycheck": "123",
+      "price": 151,
+      "cart": "15",
+      "status": "process"
+    },
+    {
+      "number": "2",
+      "paycheck": "562",
+      "price": 622,
+      "cart": "8888",
+      "status": "success"
+    },
+    {
+      "number": "3",
+      "paycheck": "1253",
+      "price": 1521,
+      "cart": "21",
+      "status": "failed"
+    },
+    {
+      "number": "1",
+      "paycheck": "123",
+      "price": 151,
+      "cart": "15",
+      "status": "process"
+    },
+    {
+      "number": "2",
+      "paycheck": "562",
+      "price": 622,
+      "cart": "8888",
+      "status": "success"
+    },
+    {
+      "number": "3",
+      "paycheck": "1253",
+      "price": 1521,
+      "cart": "21",
+      "status": "failed"
+    }
+  ]
 }
