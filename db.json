@@ -1,20 +1,20 @@
 {
-  "users":[{"login":"admin","pass":"admin","status":"admin"},{"login":"bar1","pass":"135","status":"worker"},{"login":"bar2","pass":"1561","status":"worker"}],
+  "users":[{"login":"admin","pass":"admin","status":"admin"},{"login":"bar","pass":"111","status":"worker"},{"login":"bari","pass":"222","status":"worker"}],
   "coffee": [
     {
       "id": 1,
-      "img": "https://img1.goodfon.ru/wallpaper/nbig/5/83/gorod-most-zolotye-vorota.jpg",
-      "title": "123",
-      "price": 511,
-      "amount": "6156",
+      "img": "https://7element-cafe.ru/wp-content/uploads/2021/04/ed7227d0c476e295de43a869acdbe312.jpg",
+      "title": "Эспрессо",
+      "price": 149,
+      "amount": "70 мл",
       "rating": 5
     },
     {
       "id": 2,
-      "img": "https://img1.goodfon.ru/wallpaper/nbig/5/83/gorod-most-zolotye-vorota.jpg",
-      "title": "Заголовок кофе классное",
-      "price": 501,
-      "amount": "611",
+      "img": "https://7element-cafe.ru/wp-content/uploads/2021/04/photo.jpg",
+      "title": "Глиссе",
+      "price": 249,
+      "amount": "150 мл",
       "rating": 1
     }
   ],
@@ -22,81 +22,57 @@
     {
       "id": 1,
       "number": "65232-1231-1254",
-      "title": "Артикул 1",
-      "amount": "12",
-      "price": 123
+      "title": "Эспрессо",
+      "amount": "70 мл",
+      "price": 149
     },
     {
       "id": 2,
       "number": "51612-5215-6882",
-      "title": "Артикул 2",
-      "amount": "61",
-      "price": 567
+      "title": "Глиссе",
+      "amount": "150 мл",
+      "price": 249
     }
   ],
   "employees": [
     {
       "id": 1,
-      "fullname": "Брюханов Павел Владимирович",
-      "phone": "+79323133842",
-      "passport": "Есть",
-      "INN": "1551262334"
+      "fullname": "Шкиц Виталий Владимирович",
+      "phone": "+7(800)555-35-35",
+      "passport": "45 20 567849",
+      "INN": "155126233467"
     },
     {
       "id": 2,
-      "fullname": "Широков Константин Евгеньевич",
-      "phone": "89003797616",
-      "passport": "Есть",
-      "INN": "1554122254"
+      "fullname": "Захаров Роман Евгеньевич",
+      "phone": "+7(912)483-78-91",
+      "passport": "37 15 617820",
+      "INN": "155412225434"
     }
   ],
   "orders": [
     {
       "id": 1,
       "number": "1",
-      "paycheck": "123",
-      "price": 151,
-      "cart": "15",
+      "paycheck": "34",
+      "price": 149,
+      "cart": "1",
       "status": "process"
     },
     {
       "id": 2,
       "number": "2",
-      "paycheck": "562",
-      "price": 622,
-      "cart": "8888",
+      "paycheck": "35",
+      "price": 498,
+      "cart": "2",
       "status": "success"
     },
     {
       "id": 3,
       "number": "3",
-      "paycheck": "1253",
-      "price": 1521,
-      "cart": "21",
-      "status": "failed"
-    },
-    {
-      "id": 4,
-      "number": "1",
-      "paycheck": "123",
-      "price": 151,
-      "cart": "15",
-      "status": "process"
-    },
-    {
-      "id": 5,
-      "number": "2",
-      "paycheck": "562",
-      "price": 622,
-      "cart": "8888",
-      "status": "success"
-    },
-    {
-      "id": 6,
-      "number": "3",
-      "paycheck": "1253",
-      "price": 1521,
-      "cart": "21",
+      "paycheck": "36",
+      "price": 398,
+      "cart": "2",
       "status": "failed"
     }
   ]
